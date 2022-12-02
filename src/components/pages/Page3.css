@@ -1,0 +1,29 @@
+.page3__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page3__img > img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.page3 {
+    text-align: center;
+}
+
+.page3 > hr {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+    .page3__img {
+        flex-direction: column;
+    }
+
+    .page3__img > img {
+        margin-bottom: 50px;
+    }
+}

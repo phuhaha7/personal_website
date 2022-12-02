@@ -1,0 +1,29 @@
+.page1__card {
+    border: 5px solid black;
+    margin: 3vh;
+    padding: 3vh;
+    border-radius: 25px;
+}
+
+.page1__title {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #FFF38C;
+}
+
+.page1__skills {
+    background-color: #60be86;
+}
+
+.page1__contacts {
+    background-color: #C3F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page1__logos {
+    width: 100px;
+    object-fit: contain;
+}
+

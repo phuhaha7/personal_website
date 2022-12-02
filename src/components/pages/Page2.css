@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+.page2__img1 {
+    object-fit: contain;
+}
+
+.MuiCard-root {
+    margin: 10px
+}
